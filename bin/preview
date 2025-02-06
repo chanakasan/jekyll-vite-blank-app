@@ -1,2 +1,2 @@
 bin/build
-http-server -p 8000 _site
+npx http-server -p 8000 _site
