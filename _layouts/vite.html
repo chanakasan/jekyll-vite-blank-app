@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    {% if page.title %}
+      <title>{{ page.title }} - {{ site.title }}</title>
+    {% else %}
+      <title>{{ site.title }}</title>
+    {% endif %}
+    <link rel="stylesheet" href="{{ "/css/compiled/main.css" | relative_url }}">
+    {% nx_vite_js_tags %}
+  </head>
+  <body>
+    {{ content }}
+  </body>
+</html>

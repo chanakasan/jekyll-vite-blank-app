@@ -1,0 +1,6 @@
+usage:
+
+clone
+bundle
+npm i
+bin/watch

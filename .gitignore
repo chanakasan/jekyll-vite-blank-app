@@ -1,0 +1,4 @@
+.jekyll-cache/
+_site/
+css/compiled/*
+vite_dist/

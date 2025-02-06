@@ -1,0 +1,15 @@
+url: "example.com"
+baseurl: ""
+title: "Jekyll + Vite"
+
+exclude:
+  - bin
+  - doc
+  - README.md
+  - tailwind*
+  - Procfile*
+
+collections:
+  pages:
+    output: true
+    permalink: /:name

@@ -1,0 +1,2 @@
+bin/build
+http-server -p 8000 _site

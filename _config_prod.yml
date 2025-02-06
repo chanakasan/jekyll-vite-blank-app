@@ -1,0 +1,14 @@
+exclude:
+  # prod
+  - frontend
+  # folders
+  - bin
+  - vite_dist
+  # files
+  - README.md
+  - vite.config.js
+  - tailwind*
+  - postcss*
+  - package*
+  - Procfile*
+  - yarn*

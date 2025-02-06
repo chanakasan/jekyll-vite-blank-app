@@ -1,0 +1,2 @@
+rm -rf _site
+rm -rf vite_dist
